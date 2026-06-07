@@ -7,6 +7,8 @@ You type *“Explain how the water cycle works.”* A chain of AI agents writes 
 each scene as a diagram, picks the most fitting hand-drawn icons, narrates it, and renders a synced
 MP4 where every element draws itself in as it’s spoken.
 
+# Demo
+<video src="demo/final.mp4" controls width="800"></video>
 
 ---
 
@@ -99,7 +101,7 @@ cp .env.example .env.local
 Fill in `.env.local`:
 - `GOOGLE_CLOUD_PROJECT` and `GOOGLE_APPLICATION_CREDENTIALS` (absolute path to your key — **keep the
   key file outside the repo**)
-- `GEMINI_MODEL` (e.g. `gemini-2.5-flash`) — drives every reasoning agent
+- `GEMINI_MODEL` (e.g. `gemini-3.5-flash`) — drives every reasoning agent
 - Convex URLs are filled in by `convex dev` in the next step
 
 > Every model id is read from env (`GEMINI_MODEL`, `RERANK_MODEL`, `SVG_GENERATOR_MODEL`,
@@ -145,7 +147,7 @@ npm test              # layout-engine unit tests (deterministic, no API calls)
 
 | Var | Purpose | Default |
 |---|---|---|
-| `GEMINI_MODEL` | Director, scene designers, script editor | `gemini-2.5-flash` |
+| `GEMINI_MODEL` | Director, scene designers, script editor | `gemini-3.5-flash` |
 | `RERANK_MODEL` | Context-aware icon reranker | falls back to `GEMINI_MODEL` |
 | `SVG_GENERATOR_MODEL` | Fallback icon generator | falls back to `GEMINI_MODEL` |
 | `EMBED_MODEL` | Icon embeddings (must match the prebuilt index) | `gemini-embedding-001` |
