@@ -145,7 +145,7 @@ npm test              # layout-engine unit tests (deterministic, no API calls)
 
 | Var | Purpose | Default |
 |---|---|---|
-| `GEMINI_MODEL` | Director, scene designers, script editor | `gemini-3.5-flash` |
+| `GEMINI_MODEL` | Director, scene designers, script editor | `gemini-2.5-flash` |
 | `RERANK_MODEL` | Context-aware icon reranker | falls back to `GEMINI_MODEL` |
 | `SVG_GENERATOR_MODEL` | Fallback icon generator | falls back to `GEMINI_MODEL` |
 | `EMBED_MODEL` | Icon embeddings (must match the prebuilt index) | `gemini-embedding-001` |
