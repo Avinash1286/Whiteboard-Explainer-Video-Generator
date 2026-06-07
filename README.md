@@ -7,8 +7,9 @@ You type *“Explain how the water cycle works.”* A chain of AI agents writes 
 each scene as a diagram, picks the most fitting hand-drawn icons, narrates it, and renders a synced
 MP4 where every element draws itself in as it’s spoken.
 
-# Demo
-<video src="demo/final.mp4" controls width="800"></video>
+## Demo Video
+
+[Watch the Demo](https://github.com/Avinash1286/Whiteboard-Explainer-Video-Generator/blob/main/demo/final.mp4)
 
 ---
 
