@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>Neural Node</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+        <path d="M23 28 C19 16 34 10 42 18 C51 18 57 27 54 36 C60 44 52 57 41 53 C34 61 20 55 23 44 C14 40 15 29 23 28 Z" fill="#B28DFF" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="31" cy="34" r="3" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+        <circle cx="43" cy="34" r="3" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+        <path d="M30 45 C34 48 41 48 45 44" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

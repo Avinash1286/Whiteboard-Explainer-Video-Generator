@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>Instinct</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+        <path d="M26 44 C19 40 17 29 22 21 C28 11 44 11 50 21 C55 30 51 40 44 44 V50 H26 Z" fill="#FFE66D" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M28 57 H42 M30 50 H40" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="36" cy="29" r="5" fill="#FFFFFF" stroke="#111111" stroke-width="2.4"/>
+  </g>
+</svg>

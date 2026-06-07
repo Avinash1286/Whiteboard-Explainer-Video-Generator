@@ -1,0 +1,39 @@
+{
+  "name": "deterministic-explainer-video",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 5173",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 5173",
+    "check:worker": "tsc -p tsconfig.node.json --noEmit",
+    "test": "tsx --test \"shared/**/*.test.ts\" \"scripts/**/*.test.ts\"",
+    "assets:openmoji": "tsx scripts/ingest-openmoji.ts",
+    "assets:generate": "tsx scripts/generate-svg-asset.ts",
+    "assets:verify": "tsx scripts/verify-openmoji.ts",
+    "render:local": "tsx scripts/render-local.ts",
+    "worker": "tsx worker/convexWorker.ts",
+    "convex:dev": "convex dev"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.3.0",
+    "convex": "^1.30.0",
+    "google-auth-library": "^10.5.0",
+    "lucide-react": "^0.554.0",
+    "next": "^16.2.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sharp": "^0.34.5",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "perfect-freehand": "^1.2.3",
+    "roughjs": "^4.6.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
